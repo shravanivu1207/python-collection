@@ -4,8 +4,7 @@ x+=10
 print(x)
 x-=10
 print(x)
-x*=10
-print(x)
+x*printrint(x)
 x/=10
 print(x)
 x%=10
@@ -15,12 +14,12 @@ print(x)
 
 #comparison operators
 x = 10
-print(x == 12)
-print(x != 12)
-print(x >= 12)
-print(x <= 12)
-print(x < 12)
-print(x > 12)
+print(x == 12) #false
+print(x != 12) #true
+print(x >= 12) #false
+print(x <= 12) #true
+print(x < 12) #true
+print(x > 12) #false
 
 age = int(input("Enter your age : "))
 if(age>=18):
@@ -31,10 +30,10 @@ if(age>=18):
 #logical operator
 x=5
 y=10
-print(x<10 or y>12)
-print(x>2 and x<12)
-print(x>10 and y<5)
-print(not(x<10))
+print(x<10 or y>12) #true
+print(x>2 and x<12) #true
+print(x>10 and y<5) #false
+print(not(x<10)) #false
 
 a = int(input("a = "))
 b = int(input("b = "))
@@ -46,11 +45,11 @@ print(not(a>b))
 #membership operator
 my_list = [1,2,3,4,5]
 my_string ="python"
-print(3 in my_list)
-print(7 in my_list)
-print(7 not in my_list)
-print("x" in my_string)
-print("x" not in my_string)
+print(3 in my_list) #true
+print(7 in my_list) #false
+print(7 not in my_list) #true
+print("x" in my_string) #false
+print("x" not in my_string) #true
 
 q = input("enter a string = ")
 print("a" in q)  
@@ -58,7 +57,7 @@ print("python" not in q)
 
 #combining both membership and logical operator
 x="hello world"
-print(("h" in x) and ("d" in x))
+print(("h" in x) and ("d" in x)) # true
 
 
 #bitwise operator
@@ -74,8 +73,8 @@ print(r>>1)
 #identity operator
 x="hello"
 y="hello "
-print(x is y)
+print(x is y) #false
 
 s = "python "
 t="python"
-print(s is not t)
+print(s is not t) #true
