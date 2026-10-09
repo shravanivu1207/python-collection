@@ -1,0 +1,1 @@
+print("hen".replace("","-"))
