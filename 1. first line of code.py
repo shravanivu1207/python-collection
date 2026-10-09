@@ -8,4 +8,3 @@ print(f"a = {a}") #output = 10
 a = "python"
 print(f"a = {a}") #output =  python
 
-
