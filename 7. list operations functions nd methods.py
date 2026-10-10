@@ -169,6 +169,7 @@ print(g[0:3] + [g[3]])
 u=[(3,4)]
 print(list(u))
 print(len(u))
+print(type(u))
 
 # combining 2 lists
 n =[1,3,9,[6,4,0]]
@@ -228,8 +229,8 @@ print(len(z))
 
 r=["p","h","y",list(("t","o","n"),)]
 print(len(r))
-print(r)
-print(r[0:3] + r[3])
+print(r) #it is giving wrong output in terminal...correct output is ['p','h','y',[('t','o','n')]] with refernce of ai gemini
+print(r[0:3] + r[3]) #it is giving wrong output in terminal...correct output is ['p', 'h', 'y', ('t', 'o', 'n')] with refernce of ai gemini
 
 r=["p","h","y",list(("t","o","n"))]
 print(len(r))
@@ -237,6 +238,8 @@ print(r)
 print(r[0:3] + r[3])
 
 u=((["hi","hello"],["kk"]))
+print(type(u))
 z=(list(u))
 print(z)
+print(type(z))
 print(len(z))
