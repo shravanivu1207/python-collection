@@ -165,3 +165,5 @@ print(c)
 #type conversion in sets
 s={2,5}
 print(set(str(s) for s in {2,5}))
+w=(2,3,3,4)
+print(set(str(w) for w in (2,3,3,4)))
