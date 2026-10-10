@@ -243,3 +243,6 @@ z=(list(u))
 print(z)
 print(type(z))
 print(len(z))
+
+#repitation
+print([3,2]*3)
