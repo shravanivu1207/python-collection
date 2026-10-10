@@ -34,6 +34,7 @@ print(tuple(int(y) for y in ("3","2","6","5")))
 #type converting particular element
 i = (4,5,2,1,9,6)
 print((4,) + tuple(str(i) for i in (5,2))+ (1,9,6))
+print((i[0],) + (tuple(str(i) for i in (5,2))) + i[3:])
 print(tuple(str(i) for i in (4,5,2)) +(1,9,6))
 
 print("------\n")

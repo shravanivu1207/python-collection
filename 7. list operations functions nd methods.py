@@ -246,3 +246,7 @@ print(len(z))
 
 #repitation
 print([3,2]*3)
+
+#nested lists
+e=[3,4,[4,5,[5,6],4,0],9]
+print(e) 
