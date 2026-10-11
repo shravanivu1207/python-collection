@@ -167,3 +167,11 @@ s={2,5}
 print(set(str(s) for s in {2,5}))
 w=(2,3,3,4)
 print(set(str(w) for w in (2,3,3,4)))
+
+#nested tuple
+r=(2,3,(4,5,(2,),3,4,2),4,5)
+print(r)
+
+#we can even put tuple inside a set but not lists...
+w={2,(3,),6}
+print(w)
