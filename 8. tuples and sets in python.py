@@ -175,3 +175,7 @@ print(r)
 #we can even put tuple inside a set but not lists...
 w={2,(3,),6}
 print(w)
+
+#we can put sets in tuple and lists
+q=(4,{4,4,5},9)
+print(q)
