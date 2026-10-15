@@ -6,5 +6,5 @@ birthday={
 }
 print(birthday)
 
-#
+#acessing
 
