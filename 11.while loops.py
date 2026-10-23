@@ -33,3 +33,13 @@ while i<=10:
     print(i)
     i+=1
 
+#nested switch
+i=0
+while i<=10:
+    x=0
+    while x<i:
+        print("shravani",end="-")
+        x+=1
+    print("") #it simply print new line and move cursor to next line
+    i+=1
+
