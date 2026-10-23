@@ -43,3 +43,13 @@ while i<=10:
     print("") #it simply print new line and move cursor to next line
     i+=1
 
+pin ='1234'
+trails=1
+while trails<3:
+    input_pin=input(f"trail-{trails} | pin >> ")
+    trails+=1
+    if input_pin==pin:
+      print("correct")
+      break
+    else:
+      print("incorrect")
