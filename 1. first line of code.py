@@ -9,3 +9,6 @@ a = "python"
 print(f"a = {a}") #output =  python
 
 print("Hello!! welcomee to VS codee")
+
+name = "shravani"
+print(f"My name is {name}")
