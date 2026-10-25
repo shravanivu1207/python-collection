@@ -1,5 +1,5 @@
 # "print" function
-print("hello wrold!!")
+print("hello wrold!! hello python")
 print("I will lead through my heart,not from head - Princess Diana")
 
 # Python is dynamically typed, example :
