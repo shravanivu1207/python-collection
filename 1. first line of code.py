@@ -10,5 +10,5 @@ print(f"a = {a}") #output =  python
 
 print("Hello!! welcomee to VS codee")
 
-name = "shravani"
+name = "SHRAVANI"
 print(f"My name is {name}")
