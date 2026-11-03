@@ -62,6 +62,7 @@ print(a**b) #exponent(3**2 = 9)
 # combining different operators
 print(10+8/2*3)
 print(25//4+3*2)
+print(34*(3/3+9)+3)
 
 #swaping varaibles
 a = 10
