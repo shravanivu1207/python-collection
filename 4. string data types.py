@@ -5,7 +5,7 @@ print(message * 3)
 #repitation 
 message = "python "*2
 print(message)
-print("hi "*3)
+print("java "*3)
 
 #string methods
 word = "prOgrAmmIng"
