@@ -10,7 +10,7 @@ print(f"a = {a}") #output =  python
 
 print("Hello!! welcomee to VS codee")
 
-name = "ABC"
+name = "SHRAVANI"
 print(f"My name is {name}")
 
 print (f"python and java are object oriented programming language(OOPs)")
