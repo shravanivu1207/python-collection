@@ -3,8 +3,8 @@ print("hello wrold!! welcome to python")
 print("I will lead through my heart,not from head - Princess Diana")
 
 # Python is dynamically typed, example :
-a = 10
-print(f"a = {a}") #output = 10
+a = 100
+print(f"a = {a}") #output = 100
 a = "python"
 print(f"a = {a}") #output =  python
 
