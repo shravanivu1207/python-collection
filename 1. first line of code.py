@@ -1,6 +1,6 @@
 # "print" function
 print("hello wrold!! hello python")
-print("I will lead through my heart,not from head - Princess Diana")
+print("Enginerring in kannada")
 
 # Python is dynamically typed, example :
 a = 10
